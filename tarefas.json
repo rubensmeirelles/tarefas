@@ -1,0 +1,159 @@
+{
+  "tarefas": [
+      {
+      "id": 1,
+      "nome": "Tarefa COSIS 1",
+      "coordenacao": "COSIS",
+      "ultimaExecucao": "11/05/2023 - 22:00",
+      "proximaExecucao": "12/05/2023 - 15:00",
+      "regras": [
+        {
+          "execucao": [
+            {
+              "agendamento":"Diário",
+              "horario": "15:00"
+            },
+            {
+              "agendamento":"Diário",
+              "horario": "22:00"
+            }
+          ]
+        }
+      ],
+      "status": 0,
+      "diretoriaId": 1,
+      "gerenciaId":  7,
+      "coordenacaoId": 3
+    },
+    {
+      "id": 2,
+      "nome": "Tarefa COINF 1",
+      "coordenacao": "COINF",
+      "ultimaExecucao": "11/05/2023 - 15:00",
+      "proximaExecucao": "12/05/2023 - 15:00",
+      "regras":  [
+        {
+          "execucao": [
+            {
+              "agendamento":"2ª, 4ª, 6ª",
+              "horario": "15:00 - 22:00"
+            }
+          ]
+        }
+      ],
+      "status": 1,
+      "diretoriaId": 1,
+      "gerenciaId":  7,
+      "coordenacaoId": 4
+    },
+    {
+      "id": 3,
+      "nome": "Tarefa GEASA 1",
+      "coordenacao": "GEASA",
+      "ultimaExecucao": "11/05/2023 - 15:00",
+      "proximaExecucao": "12/05/2023 - 15:00",
+      "regras":  [
+        {
+          "execucao": [
+            {
+              "agendamento":"2ª",
+              "horario": "15:00"
+            },
+            {
+              "agendamento":"2ª, 3ª, 4ª, 5ª",
+              "horario": "17:00"
+            }
+          ]
+        }
+      ],
+      "status": 0,
+      "diretoriaId": 3,
+      "gerenciaId":  4,
+      "coordenacaoId": 5
+    },
+    {
+      "id": 4,
+      "nome": "Tarefa COSAR",
+      "coordenacao": "COSAR",
+      "ultimaExecucao": "13/05/2023 - 22:00",
+      "proximaExecucao": "14/05/2023 - 15:00",
+      "regras": [
+        {
+          "execucao": [
+            {
+              "agendamento":"Diário",
+              "horario": "15:00"
+            }
+          ]
+        }
+      ],
+      "status": 0,
+      "diretoriaId": 3,
+      "gerenciaId":  4,
+      "coordenacaoId": 6
+    },
+    {
+      "id": 5,
+      "nome": "Tarefa COSIS 1",
+      "coordenacao": "COSIS",
+      "ultimaExecucao": "13/05/2023 - 22:00",
+      "proximaExecucao": "14/05/2023 - 15:00",
+      "regras": [
+        {
+          "execucao": [
+            {
+              "agendamento":"Diário",
+              "horario": "15:00"
+            }
+          ]
+        }
+      ],
+      "status": 1,
+      "diretoriaId": 1,
+      "gerenciaId":  7,
+      "coordenacaoId": 3
+    },
+    {
+      "id": 6,
+      "nome": "Tarefa COOPE",
+      "coordenacao": "COOPE",
+      "ultimaExecucao": "15/05/2023 - 22:00",
+      "proximaExecucao": "16/05/2023 - 15:00",
+      "regras": [
+        {
+          "execucao": [
+            {
+              "agendamento":"Diário",
+              "horario": "15:00"
+            }
+          ]
+        }
+      ],
+      "status": 0,
+      "diretoriaId": 2,
+      "gerenciaId":  3,
+      "coordenacaoId": 11
+    },
+    {
+      "id": 7,
+      "nome": "Tarefa COGAT",
+      "coordenacao": "COGAT",
+      "ultimaExecucao": "15/05/2023 - 22:00",
+      "proximaExecucao": "16/05/2023 - 15:00",
+      "regras": [
+        {
+          "execucao": [
+            {
+              "agendamento":"Diário",
+              "horario": "05:00"
+            }
+          ]
+        }
+      ],
+      "status": 0,
+      "diretoriaId": 2,
+      "gerenciaId":  3,
+      "coordenacaoId": 10
+    }
+  ]
+}
