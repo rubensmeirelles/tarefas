@@ -2,7 +2,7 @@
   "queries": [
     {
       "id": 1,
-      "tarefaId": "1,
+      "tarefaId": 1,
       "queries": [
         {
           "nomeQuery": "Query COSIS 1",
@@ -10,7 +10,7 @@
         },
         {
           "nomeQuery": "Query COSIS 2",
-          "tipoSgbd": 1
+          "tipoSgbd": 3
         }
       ]
     }
