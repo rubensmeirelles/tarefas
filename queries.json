@@ -13,6 +13,16 @@
           "tipoSgbd": 3
         }
       ]
+    },
+    {
+      "id": 2,
+      "tarefaId": 3,
+      "queries": [
+        {
+          "nomeQuery": "Query GEASA 1",
+          "tipoSgbd": 1
+        }
+      ]
     }
   ]
 }
