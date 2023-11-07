@@ -7,46 +7,12 @@
         {
           "nomeQuery": "Query COSIS 1",
           "tipoSgbd": 1,
-          "script": "SELECT [Matricula]
-                            ,[Nome]
-                            ,[DataParcelamento]
-                            ,[QuantidadeParcelas]
-                            ,[ValorParcelamento]
-                            ,[ValorCadaParcela]
-                            ,[NumeroParcelaNegociada]
-                            ,[ValorParcelaNegociada]
-                            ,[DataCompetencia]
-                            ,[ValorMensalidade_PSA]
-                            ,[ValorDevMensalidade_PSA]
-                            ,[ValorMensalidade_Total]
-                            ,[ValorCoparI]
-                            ,[ValorCoparII]
-                            ,[ValorDevDespesa_PSA]
-                            ,[Residuo]
-                        FROM [PSA].[VIEW_PARCELAMENTO_SEGREGADO_v2]"
+          "script": "SELECT [Matricula] ,[Nome] ,[DataParcelamento] ,[QuantidadeParcelas] ,[ValorCoparI] ,[Residuo] FROM [PSA].[VIEW_PARCELAMENTO_SEGREGADO_v2]"
         },
         {
           "nomeQuery": "Query COSIS 2",
           "tipoSgbd": 3,
-          "script": "SELECT TOP 100
-                      Matricula,
-                      Nome,
-                      FORMAT(DataParcelamento, 'dd/MM/yyyy') AS DataParcelamento,                            
-                      QuantidadeParcelas,    
-                      ValorParcelamento,    
-                      ValorCadaParcela,    
-                      NumeroParcelaNegociada,    
-                      ValorParcelaNegociada,    
-                      DataCompetencia,    
-                      ValorMensalidade_PSA,    
-                      ValorDevMensalidade_PSA,    
-                      ValorMensalidade_Total,
-                      ValorCoparI,
-                      ValorCoparII,
-                      ValorDevDespesa_PSA,
-                      Residuo
-                      FROM PSA.VIEW_PARCELAMENTO_SEGREGADO_V2
-                      WHERE DataParcelamento BETWEEN '2023-10-1' AND '2023-11-7' ORDER BY 1, 7"
+          "script": "SELECT TOP 100  Matricula, Nome, FORMAT(DataParcelamento, 'dd/MM/yyyy') AS DataParcelamento, QuantidadeParcelas, ValorCoparII, ValorDevDespesa_PSA, Residuo FROM PSA.VIEW_PARCELAMENTO_SEGREGADO_V2 WHERE DataParcelamento BETWEEN '2023-10-1' AND '2023-11-7' ORDER BY 1, 7"
         }
       ]
     },
@@ -57,16 +23,7 @@
         {
           "nomeQuery": "Query GEASA 1",
           "tipoSgbd": 1,
-          "script": "SELECT TOP 100
-                      Matricula,
-                      Nome,
-                      FORMAT(DataParcelamento, 'dd/MM/yyyy') AS DataParcelamento,                            
-                      QuantidadeParcelas,    
-                      ValorParcelamento,                         
-                      ValorDevDespesa_PSA,
-                      Residuo
-                      FROM PSA.VIEW_PARCELAMENTO_SEGREGADO_V2
-                      WHERE DataParcelamento BETWEEN '2023-10-1' AND '2023-11-7' ORDER BY 1, 7"
+          "script": "SELECT TOP 100  Matricula,Nome, FORMAT(DataParcelamento, 'dd/MM/yyyy') AS DataParcelamento,  QuantidadeParcelas, ValorParcelamento, Residuob FROM PSA.VIEW_PARCELAMENTO_SEGREGADO_V2 WHERE DataParcelamento BETWEEN '2023-10-1' AND '2023-11-7' ORDER BY 1, 7"
         }
       ]
     }
