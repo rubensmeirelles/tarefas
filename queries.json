@@ -28,12 +28,13 @@
       ]
     },
     {
+      "id": 3,
       "diretoria": 1,
       "gerencia": 7,
       "coordenacao": 3,
       "tarefa": 5,
       "nomeQuery": "Teste",
-      "optionSgbd": 4,
+      "tipoSgbd": 4,
       "script": "select * from"
     }
   ]
