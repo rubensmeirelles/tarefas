@@ -26,6 +26,15 @@
           "script": "SELECT TOP 100  Matricula,Nome, FORMAT(DataParcelamento, 'dd/MM/yyyy') AS DataParcelamento,  QuantidadeParcelas, ValorParcelamento, Residuob FROM PSA.VIEW_PARCELAMENTO_SEGREGADO_V2 WHERE DataParcelamento BETWEEN '2023-10-1' AND '2023-11-7' ORDER BY 1, 7"
         }
       ]
+    },
+    {
+      "diretoria": 1,
+      "gerencia": 7,
+      "coordenacao": 3,
+      "tarefa": 5,
+      "nomeQuery": "Teste",
+      "optionSgbd": 4,
+      "script": "select * from"
     }
   ]
 }
