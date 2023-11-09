@@ -219,6 +219,16 @@
       "tipoSgbd": 3,
       "script": "SELET * FROM TB_SOC",
       "id": 34
+    },
+    {
+      "diretoria": 1,
+      "gerencia": 7,
+      "coordenacao": 3,
+      "tarefaId": 1,
+      "nomeQuery": "fdfdsf",
+      "tipoSgbd": 2,
+      "script": "ddgdggd",
+      "id": 35
     }
   ]
 }
