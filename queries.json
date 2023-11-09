@@ -142,48 +142,6 @@
       "id": 15
     },
     {
-      "nomeQuery": "",
-      "tipoSgbd": 1,
-      "script": "",
-      "id": 16
-    },
-    {
-      "nomeQuery": "",
-      "tipoSgbd": 1,
-      "script": "",
-      "id": 17
-    },
-    {
-      "nomeQuery": "",
-      "tipoSgbd": 1,
-      "script": "",
-      "id": 18
-    },
-    {
-      "nomeQuery": "",
-      "tipoSgbd": 1,
-      "script": "",
-      "id": 19
-    },
-    {
-      "nomeQuery": "",
-      "tipoSgbd": 1,
-      "script": "",
-      "id": 20
-    },
-    {
-      "nomeQuery": "",
-      "tipoSgbd": 1,
-      "script": "",
-      "id": 21
-    },
-    {
-      "nomeQuery": "",
-      "tipoSgbd": 1,
-      "script": "",
-      "id": 22
-    },
-    {
       "diretoria": 2,
       "gerencia": 3,
       "coordenacao": 11,
@@ -202,6 +160,89 @@
       "tipoSgbd": 3,
       "script": "SELECT * FROM COOPE_2",
       "id": 24
+    },
+    {
+      "diretoria": 2,
+      "gerencia": 1,
+      "coordenacao": 6,
+      "tarefaId": 4,
+      "nomeQuery": "COPEP QUERY",
+      "tipoSgbd": 4,
+      "script": "SELECT * FROM TABLE",
+      "id": 25
+    },
+    {
+      "diretoria": null,
+      "gerencia": null,
+      "coordenacao": null,
+      "tarefaId": null,
+      "nomeQuery": null,
+      "tipoSgbd": null,
+      "script": null,
+      "id": 26
+    },
+    {
+      "nomeQuery": null,
+      "tipoSgbd": 1,
+      "script": null,
+      "id": 27
+    },
+    {
+      "nomeQuery": null,
+      "tipoSgbd": 1,
+      "script": null,
+      "id": 28
+    },
+    {
+      "nomeQuery": null,
+      "tipoSgbd": 1,
+      "script": null,
+      "id": 29
+    },
+    {
+      "diretoria": 2,
+      "gerencia": 1,
+      "coordenacao": 6,
+      "tarefaId": 4,
+      "nomeQuery": null,
+      "tipoSgbd": 1,
+      "script": null,
+      "id": 30
+    },
+    {
+      "diretoria": 2,
+      "gerencia": 1,
+      "coordenacao": 6,
+      "tarefaId": 4,
+      "nomeQuery": null,
+      "tipoSgbd": 1,
+      "script": null,
+      "id": 31
+    },
+    {
+      "nomeQuery": null,
+      "tipoSgbd": 1,
+      "script": null,
+      "id": 32
+    },
+    {
+      "diretoria": 2,
+      "gerencia": 2,
+      "coordenacao": 8,
+      "nomeQuery": null,
+      "tipoSgbd": 1,
+      "script": null,
+      "id": 33
+    },
+    {
+      "diretoria": 3,
+      "gerencia": 4,
+      "coordenacao": 5,
+      "tarefaId": 3,
+      "nomeQuery": "Query COSEC",
+      "tipoSgbd": 3,
+      "script": "SELET * FROM TB_SOC",
+      "id": 34
     }
   ]
 }
