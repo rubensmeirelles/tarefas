@@ -3,43 +3,33 @@
     {
       "id": 1,
       "tarefaId": 1,
-      "queries": [
-        {
-          "nomeQuery": "Query COSIS 1",
-          "tipoSgbd": 1,
-          "script": "SELECT [Matricula] ,[Nome] ,[DataParcelamento] ,[QuantidadeParcelas] ,[ValorCoparI] ,[Residuo] FROM [PSA].[VIEW_PARCELAMENTO_SEGREGADO_v2]"
-        },
-        {
-          "nomeQuery": "Query COSIS 2",
-          "tipoSgbd": 3,
-          "script": "SELECT TOP 100  Matricula, Nome, FORMAT(DataParcelamento, 'dd/MM/yyyy') AS DataParcelamento, QuantidadeParcelas, ValorCoparII, ValorDevDespesa_PSA, Residuo FROM PSA.VIEW_PARCELAMENTO_SEGREGADO_V2 WHERE DataParcelamento BETWEEN '2023-10-1' AND '2023-11-7' ORDER BY 1, 7"
-        }
-      ]
+	    "nomeQuery": "Query COSIS 1",
+      "tipoSgbd": 1,
+      "script": "SELECT [Matricula] ,[Nome] ,[DataParcelamento] ,[QuantidadeParcelas] ,[ValorCoparI] ,[Residuo] FROM [PSA].[VIEW_PARCELAMENTO_SEGREGADO_v2]"
     },
-    {
-      "id": 2,
-      "tarefaId": 3,
-      "queries": [
-        {
-          "nomeQuery": "Query GEASA 1",
-          "tipoSgbd": 1,
-          "script": "SELECT TOP 100  Matricula,Nome, FORMAT(DataParcelamento, 'dd/MM/yyyy') AS DataParcelamento,  QuantidadeParcelas, ValorParcelamento, Residuob FROM PSA.VIEW_PARCELAMENTO_SEGREGADO_V2 WHERE DataParcelamento BETWEEN '2023-10-1' AND '2023-11-7' ORDER BY 1, 7"
-        }
-      ]
-    },
+  	{
+  		"id": 2,
+  		"tarefaId": 1,
+  		"nomeQuery": "Query COSIS 2",
+      "tipoSgbd": 3,
+      "script": "SELECT TOP 100  Matricula, Nome, FORMAT(DataParcelamento, 'dd/MM/yyyy') AS DataParcelamento, QuantidadeParcelas, ValorCoparII, ValorDevDespesa_PSA, Residuo FROM PSA.VIEW_PARCELAMENTO_SEGREGADO_V2 WHERE DataParcelamento BETWEEN '2023-10-1' AND '2023-11-7' ORDER BY 1, 7"
+  	}
     {
       "id": 3,
+      "tarefaId": 3,
+      "nomeQuery": "Query GEASA 1",
+      "tipoSgbd": 1,
+      "script": "SELECT TOP 100  Matricula,Nome, FORMAT(DataParcelamento, 'dd/MM/yyyy') AS DataParcelamento,  QuantidadeParcelas, ValorParcelamento, Residuob FROM PSA.VIEW_PARCELAMENTO_SEGREGADO_V2 WHERE DataParcelamento BETWEEN '2023-10-1' AND '2023-11-7' ORDER BY 1, 7"
+    },
+    {
+      "id": 4,
       "diretoria": 1,
       "gerencia": 7,
       "coordenacao": 3,
       "tarefaId": 5,
-      "queries" : [
-        {
-          "nomeQuery": "Teste",
-          "tipoSgbd": 4,
-          "script": "select * from"
-        }
-      ]     
-    }
+      "nomeQuery": "Teste",
+      "tipoSgbd": 4,
+      "script": "select * from"   
+      }
   ]
 }
