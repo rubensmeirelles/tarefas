@@ -29,7 +29,17 @@
       "tarefaId": 5,
       "nomeQuery": "Teste",
       "tipoSgbd": 4,
-      "script": "select * from"   
+      "script": "select * from"
+    },
+    {
+      "diretoria": 1,
+      "gerencia": 7,
+      "coordenacao": 4,
+      "tarefaId": 2,
+      "nomeQuery": "Teste query COINF",
+      "tipoSgbd": 1,
+      "script": "SELECT * FROM TABLE",
+      "id": 5
     }
   ]
 }
