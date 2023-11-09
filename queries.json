@@ -182,24 +182,6 @@
       "id": 26
     },
     {
-      "nomeQuery": null,
-      "tipoSgbd": 1,
-      "script": null,
-      "id": 27
-    },
-    {
-      "nomeQuery": null,
-      "tipoSgbd": 1,
-      "script": null,
-      "id": 28
-    },
-    {
-      "nomeQuery": null,
-      "tipoSgbd": 1,
-      "script": null,
-      "id": 29
-    },
-    {
       "diretoria": 2,
       "gerencia": 1,
       "coordenacao": 6,
@@ -218,12 +200,6 @@
       "tipoSgbd": 1,
       "script": null,
       "id": 31
-    },
-    {
-      "nomeQuery": null,
-      "tipoSgbd": 1,
-      "script": null,
-      "id": 32
     },
     {
       "diretoria": 2,
