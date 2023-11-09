@@ -50,6 +50,46 @@
       "tipoSgbd": 1,
       "script": "SELECT * FROM TABLE_COSAR",
       "id": 6
+    },
+    {
+      "diretoria": 1,
+      "gerencia": 7,
+      "coordenacao": 4,
+      "tarefaId": 2,
+      "nomeQuery": "Nova query COINF",
+      "tipoSgbd": 1,
+      "script": "SELECT * FROM TABLE_COINF",
+      "id": 7
+    },
+    {
+      "diretoria": 1,
+      "gerencia": 7,
+      "coordenacao": 3,
+      "tarefaId": 1,
+      "nomeQuery": "Nova query COSIS",
+      "tipoSgbd": 1,
+      "script": "SELECT * FROM PSA_APOSENTADO",
+      "id": 8
+    },
+    {
+      "diretoria": 1,
+      "gerencia": 7,
+      "coordenacao": 3,
+      "tarefaId": 5,
+      "nomeQuery": "Nova query COSIS 2",
+      "tipoSgbd": 3,
+      "script": "select nome, matricula, cpf from SAM_BENEFICIARIO",
+      "id": 9
+    },
+    {
+      "diretoria": 3,
+      "gerencia": 4,
+      "coordenacao": 6,
+      "tarefaId": 4,
+      "nomeQuery": "Nova query COSAR",
+      "tipoSgbd": 3,
+      "script": "SELECT MATRICULA, NOME, CPF FROM SAM_BENEFICIARIO",
+      "id": 10
     }
   ]
 }
