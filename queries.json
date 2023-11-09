@@ -90,6 +90,118 @@
       "tipoSgbd": 3,
       "script": "SELECT MATRICULA, NOME, CPF FROM SAM_BENEFICIARIO",
       "id": 10
+    },
+    {
+      "diretoria": 1,
+      "gerencia": 7,
+      "coordenacao": 4,
+      "tarefaId": 2,
+      "nomeQuery": "QUERY NOVA COINF",
+      "tipoSgbd": 1,
+      "script": "SELECT * FROM COINF",
+      "id": 11
+    },
+    {
+      "diretoria": 1,
+      "gerencia": 7,
+      "coordenacao": 3,
+      "tarefaId": 1,
+      "nomeQuery": "Query nova COSIS 3",
+      "tipoSgbd": 4,
+      "script": "select * FROM COSIS",
+      "id": 12
+    },
+    {
+      "diretoria": 1,
+      "gerencia": 7,
+      "coordenacao": 3,
+      "tarefaId": 1,
+      "nomeQuery": "TESTE",
+      "tipoSgbd": 1,
+      "script": "SCRIPT NOVO",
+      "id": 13
+    },
+    {
+      "diretoria": 1,
+      "gerencia": 7,
+      "coordenacao": 3,
+      "tarefaId": 5,
+      "nomeQuery": "Novo teste",
+      "tipoSgbd": 2,
+      "script": "novo select",
+      "id": 14
+    },
+    {
+      "diretoria": 2,
+      "gerencia": 3,
+      "coordenacao": 10,
+      "tarefaId": 7,
+      "nomeQuery": "Query COGAT 2",
+      "tipoSgbd": 1,
+      "script": "NOVO SELECT COGAT",
+      "id": 15
+    },
+    {
+      "nomeQuery": "",
+      "tipoSgbd": 1,
+      "script": "",
+      "id": 16
+    },
+    {
+      "nomeQuery": "",
+      "tipoSgbd": 1,
+      "script": "",
+      "id": 17
+    },
+    {
+      "nomeQuery": "",
+      "tipoSgbd": 1,
+      "script": "",
+      "id": 18
+    },
+    {
+      "nomeQuery": "",
+      "tipoSgbd": 1,
+      "script": "",
+      "id": 19
+    },
+    {
+      "nomeQuery": "",
+      "tipoSgbd": 1,
+      "script": "",
+      "id": 20
+    },
+    {
+      "nomeQuery": "",
+      "tipoSgbd": 1,
+      "script": "",
+      "id": 21
+    },
+    {
+      "nomeQuery": "",
+      "tipoSgbd": 1,
+      "script": "",
+      "id": 22
+    },
+    {
+      "diretoria": 2,
+      "gerencia": 3,
+      "coordenacao": 11,
+      "tarefaId": 6,
+      "nomeQuery": "Query COOPE",
+      "tipoSgbd": 1,
+      "script": "SELECT * FROM COOPE",
+      "id": 23
+    },
+    {
+      "diretoria": 2,
+      "gerencia": 3,
+      "coordenacao": 11,
+      "tarefaId": 6,
+      "nomeQuery": "Query COOPE 2",
+      "tipoSgbd": 3,
+      "script": "SELECT * FROM COOPE_2",
+      "id": 24
     }
   ]
 }
