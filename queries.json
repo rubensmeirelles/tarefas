@@ -172,26 +172,6 @@
       "id": 25
     },
     {
-      "diretoria": 2,
-      "gerencia": 1,
-      "coordenacao": 6,
-      "tarefaId": 4,
-      "nomeQuery": null,
-      "tipoSgbd": 1,
-      "script": null,
-      "id": 30
-    },
-    {
-      "diretoria": 2,
-      "gerencia": 1,
-      "coordenacao": 6,
-      "tarefaId": 4,
-      "nomeQuery": null,
-      "tipoSgbd": 1,
-      "script": null,
-      "id": 31
-    },
-    {
       "diretoria": 3,
       "gerencia": 4,
       "coordenacao": 5,
